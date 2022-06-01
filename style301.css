@@ -1,0 +1,55 @@
+* {
+	display: flex;
+	justify-content: center;
+}
+body {
+	background-image: url(906751-town-wallpapers.jpg);
+	height: 800px;
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+h1{
+	vertical-align: top;
+	text-align: center;
+	color: lightblue;
+	text-decoration: uppercase;
+	font-size: 300%;
+	margin-bottom: 450px;
+
+}
+.test1 {
+	font-size: 110%;
+}
+p{
+	color: lightblue;
+	font-size: 300%;
+	text-align: center;
+	text-transform: bold;
+
+}
+
+
+.btn-primary {
+	width: 150px;
+	height: 70px;
+  background-color: lightblue;
+  border-color: deepskyblue;
+  text-align: center;
+  padding-bottom: 150px;
+  font-size: 10px; 
+  padding: 16px;
+  border-radius: 300px;
+  font-size: 70%;
+  margin: 0px 0px 1000px 0px;
+  text-transform: bold;
+  vertical-align: top;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+  cursor: pointer;
+}
